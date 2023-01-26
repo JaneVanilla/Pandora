@@ -26,6 +26,7 @@ if (window.screen.width <= 1024) {
   $(document).ready(function () {
     $(".gallery__wrapper").bxSlider({
       mode: "fade",
+      infiniteLoop: true,
     });
   });
 }
