@@ -1,0 +1,24 @@
+{
+  "name": "pandora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w styles/style.scss -o styles/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaneVanilla/pandora.git"
+  },
+  "author": "Zhanna Sydorovych",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaneVanilla/pandora/issues"
+  },
+  "homepage": "https://github.com/JaneVanilla/pandora#readme",
+  "dependencies": {
+    "bxslider": "^4.2.14",
+    "node-sass": "^8.0.0",
+    "prettier": "^2.8.3"
+  }
+}
