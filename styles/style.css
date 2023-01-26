@@ -216,6 +216,7 @@ img {
   background-color: #ffcad4;
   border-color: #ffcad4; }
 
+/*bxSlider custom styles*/
 .bx-wrapper {
   box-shadow: none;
   border: none; }
@@ -261,6 +262,7 @@ img {
   font-size: 0;
   transition: all 300ms ease-in-out; }
 
+/*END bxSlider custom styles*/
 @media (max-width: 1024px) {
   .gallery__item img {
     margin: 0 auto; } }
