@@ -308,7 +308,6 @@ img {
   background-size: contain;
   background-position: right;
   transform: rotate(180deg);
-  margin-right: -10px;
 }
 
 .bx-wrapper .bx-next:hover,
@@ -318,10 +317,12 @@ img {
 }
 
 .bx-wrapper .bx-controls-direction a {
+  width: 18px;
   text-indent: 0;
   font-size: 0;
   transition: all 300ms ease-in-out;
 }
+
 
 @media (max-width: 1024px) {
   .gallery {
@@ -366,7 +367,7 @@ img {
   }
   .bx-wrapper .bx-controls-direction a {
     display: inline-block;
-    width: 20px;
+    width: 10px;
     height: 20px;
   }
   .bx-wrapper .bx-pager.bx-default-pager a {
