@@ -125,6 +125,7 @@ img {
     height: 26px;
     background-repeat: no-repeat;
     background-position: center;
+    transition: all 100ms ease-in-out;
   }
   &__menuMobile {
     display: none;
