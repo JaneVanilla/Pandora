@@ -282,6 +282,9 @@ img {
     &__item img {
       margin: 0 auto;
     }
+    &__item:hover img {
+      transform: none;
+    }
   }
 }
 

@@ -250,7 +250,9 @@ img {
 
 @media (max-width: 1024px) {
   .gallery__item img {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .gallery__item:hover img {
+    transform: none; } }
 
 @media (max-width: 768px) {
   .page-body {
