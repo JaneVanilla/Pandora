@@ -264,7 +264,8 @@ img {
     display: none; }
   .page-header .wrapper {
     position: relative;
-    justify-content: flex-end; }
+    justify-content: flex-end;
+    background-color: #d2255b; }
   .page-header__itm-user {
     position: absolute;
     left: 35px; }
