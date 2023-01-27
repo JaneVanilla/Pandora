@@ -109,7 +109,8 @@ img {
   width: 26px;
   height: 26px;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  transition: all 200ms ease-in-out; }
 
 .page-header__menuMobile {
   display: none; }
