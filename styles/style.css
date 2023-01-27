@@ -11,7 +11,7 @@
   font-family: "Pan Display Bold";
   src: url("../fonts/Pan Display Bold.ttf"); }
 
-page-body {
+.page-body {
   margin: 0;
   padding-bottom: 100px;
   color: #27251f;
@@ -264,8 +264,7 @@ img {
     display: none; }
   .page-header .wrapper {
     position: relative;
-    justify-content: flex-end;
-    background-color: #d2255b; }
+    justify-content: flex-end; }
   .page-header__itm-user {
     position: absolute;
     left: 35px; }

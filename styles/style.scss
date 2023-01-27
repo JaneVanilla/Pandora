@@ -20,7 +20,7 @@ $button-border-color: #ffcad4;
   src: url("../fonts/Pan Display Bold.ttf");
 }
 
-page-body {
+.page-body {
   margin: 0;
   padding-bottom: 100px;
   color: $text-color-main;
@@ -301,7 +301,6 @@ img {
     .wrapper {
       position: relative;
       justify-content: flex-end;
-      background-color: #d2255b;
     }
     &__itm-user {
       position: absolute;
