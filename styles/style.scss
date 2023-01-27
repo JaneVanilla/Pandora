@@ -1,3 +1,5 @@
+@import "bxSlider-custom.css";
+
 $text-color-light: #b4b4b4;
 $text-color-1: #71706c;
 $text-color-main: #27251f;
@@ -18,7 +20,7 @@ $button-border-color: #ffcad4;
   src: url("../fonts/Pan Display Bold.ttf");
 }
 
-body {
+page-body {
   margin: 0;
   padding-bottom: 100px;
   color: $text-color-main;
@@ -275,58 +277,6 @@ img {
   border-color: $button-border-color;
 }
 
-
-/*bxSlider custom styles*/
-.bx-wrapper {
-  box-shadow: none;
-  border: none;
-}
-.bx-wrapper .bx-pager,
-.bx-wrapper .bx-controls-auto {
-  margin-bottom: -32px;
-  bottom: unset;
-}
-.bx-wrapper .bx-pager.bx-default-pager a:hover,
-.bx-wrapper .bx-pager.bx-default-pager a.active,
-.bx-wrapper .bx-pager.bx-default-pager a:focus {
-  background-color: $button-border-color;
-}
-.bx-wrapper .bx-pager.bx-default-pager a {
-  background-color: #e1e1e2;
-}
-.bx-wrapper .bx-pager {
-  padding-top: 0;
-  margin-top: -30px;
-}
-
-.bx-wrapper .bx-prev {
-  left: 0;
-  background: url("../images/navigationArrow.svg") no-repeat;
-  background-size: contain;
-  background-position: left;
-}
-.bx-wrapper .bx-next {
-  right: 0;
-  background: url("../images/navigationArrow.svg") no-repeat;
-  background-size: contain;
-  background-position: right;
-  transform: rotate(180deg);
-}
-
-.bx-wrapper .bx-next:hover,
-.bx-wrapper .bx-prev:hover {
-  background: url("../images/navigationArrow_hover.svg") no-repeat;
-  background-size: contain;
-}
-
-.bx-wrapper .bx-controls-direction a {
-  width: 18px;
-  text-indent: 0;
-  font-size: 0;
-  transition: all 300ms ease-in-out;
-}
-/*END bxSlider custom styles*/
-
 @media (max-width: 1024px) {
   .gallery {
     &__item img {
@@ -336,6 +286,9 @@ img {
 }
 
 @media (max-width: 768px) {
+  .page-body {
+    padding-bottom: 50px;
+  }
   .page-header {
     margin-bottom: 20px;
     &__form {
@@ -367,16 +320,6 @@ img {
   }
   .wrapper {
     padding: 0 15px;
-  }
-  .bx-wrapper .bx-controls-direction a {
-    display: inline-block;
-    width: 10px;
-    height: 20px;
-  }
-  .bx-wrapper .bx-pager.bx-default-pager a {
-    width: 6px;
-    height: 6px;
-    margin: 0 3px;
   }
   .page-main {
     .wrapper {
@@ -410,9 +353,6 @@ img {
     &__item img {
       width: 100%;
     }
-  }
-  .bx-wrapper {
-    margin-bottom: 0;
   }
   .feedback-btn {
     top: 343px;
